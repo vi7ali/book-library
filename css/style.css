@@ -9,9 +9,16 @@
 
 html {
   font-family: "Roboto Mono", monospace;
+  background-color: #001622;
+  color: #ed9c69;
 }
 
-header, h1, h2, h3, h4, h5, h6, footer {
+header, h1, h2, h3, h4, h5, h6 {
   font-family: "Special Elite", cursive;
+  color: #d84727;
+}
+
+footer {
+  color: #fbb38a;
 }
 /*# sourceMappingURL=style.css.map */
