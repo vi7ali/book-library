@@ -13,6 +13,29 @@ header, h1, h2, h3, h4, h5, h6{
     color: $title-color;
 }
 
-footer {
-    color: $footer-color;
+#flex-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    header {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    footer {
+        color: $footer-color;
+        margin-top: auto;
+        margin-bottom: 2em;
+    }
 }
+
+#add {
+    display: block;
+    margin: 0 auto;
+}
+
+#head-row > * {
+    display: inline-block;    
+}
+
