@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Special+Elite&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-family: "Roboto Mono", monospace;
+}
+
+header, h1, h2, h3, h4, h5, h6, footer {
+  font-family: "Special Elite", cursive;
 }
 /*# sourceMappingURL=style.css.map */

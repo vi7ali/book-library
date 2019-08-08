@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'fonts';
+
+html {
+    font-family: $main-font;
+}
+
+header, h1, h2, h3, h4, h5, h6, footer{
+    font-family: $header-font;
+}
