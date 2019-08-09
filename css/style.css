@@ -35,22 +35,28 @@ header, h1, h2, h3, h4, h5, h6 {
 }
 
 #flex-wrapper header {
-  margin-top: 2em;
-  margin-bottom: 1em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 #flex-wrapper footer {
   color: #fbb38a;
   margin-top: auto;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 #add {
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
-#head-row > * {
-  display: inline-block;
+#grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
 }
 /*# sourceMappingURL=style.css.map */

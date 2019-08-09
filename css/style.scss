@@ -20,22 +20,24 @@ header, h1, h2, h3, h4, h5, h6{
     align-items: center;
     flex-wrap: nowrap;
     header {
-        margin-top: 2em;
-        margin-bottom: 1em;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
     footer {
         color: $footer-color;
         margin-top: auto;
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
     }
 }
 
 #add {
     display: block;
-    margin: 0 auto;
+    margin: 1rem auto;    
 }
 
-#head-row > * {
-    display: inline-block;    
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: max-content;
 }
-
